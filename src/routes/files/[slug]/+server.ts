@@ -1,4 +1,4 @@
-import { json, redirect } from '@sveltejs/kit';
+import { redirect } from '@sveltejs/kit';
 import Pocketbase from 'pocketbase';
 import { PUBLIC_POCKETBASE_URL } from '$env/static/public';
 
